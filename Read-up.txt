@@ -1,0 +1,5 @@
+1.)  This command:    "build": "netlify deploy --prod",     should be placed in the package json folder to build the and deploy on netlify
+
+2.) this comand:     "start": "netlify-lambda serve src" , starts the server locally. so in order for it to work, you must have ann src folder and add the same code in it.
+
+3.) if you don't need to test locally, you don't nee an src file.
